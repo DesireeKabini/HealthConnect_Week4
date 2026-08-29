@@ -1,38 +1,35 @@
-# HealthConnect Appointment Analysis
-📊 Project Overview
+# HealthConnect Hospital - Appointment No-Show Analysis
+**Week 4: Initial Analysis Document | Track B - Data Analytics**
+**Author: Desiree Kabini | Date: 30 August 2026**
 
-This project explores appointment attendance and no-show patterns using a HealthConnect Clinic appointment dataset.
+### 📌 Project Overview
+HealthConnect Hospital is experiencing high patient no-show rates. This project analyzes 5,000 appointment records to identify patterns and improve attendance.
 
-The aim of the analysis is to understand the appointment data, identify factors that may be associated with missed appointments, and develop relevant business questions and KPIs for further analysis.
+### 📊 Dataset
+- 5,000 records, 18 variables
+- Key fields: appointment status, age, distance_from_clinic, waiting_time, reminder_channel
 
-##🔍 What I Did
+### 🔍 Week 4 Focus: Initial Analysis
+- **Data Quality Issues Found:**
+    - reminder_channel: 1,366 missing (27.3%)
+    - distance_from_clinic: 90 missing
+    - waiting_time_days: 60 missing
+    - Duplicates: 0 found
 
-Reviewed the dataset structure and variables
-Conducted an initial data quality assessment
-Identified and handled missing values
-Checked for duplicate records
-Converted date columns to the appropriate format
-Identified variables relevant to appointment attendance and no-shows
-Defined business questions for further investigation
-Proposed potential KPIs
-Developed an initial analysis approach using Python
+- **Business Questions:**
+    1. What is the overall no-show rate?
+    2. Does age affect attendance?
+    3. Does distance from clinic affect attendance?
+    4. Does waiting time affect attendance?
+    5. Are reminders effective?
 
-##🛠️ Tools Used
-Python
-Pandas
-Jupyter Notebook
+- **KPIs Identified:**
+    - No-show Rate %
+    - Attendance by Age Group
+    - No-show Rate by Distance
+    - No-show Rate by Waiting Time
 
-📈 Potential Areas for Further Analysis
+### 🛠️ Tools
+Python, Pandas, Jupyter Notebook
 
-##Future analysis could investigate:
-
-The relationship between reminders and appointment attendance
-No-show patterns based on previous appointment history
-The impact of booking lead time
-Differences in no-show rates by appointment type, day, and time
-
-##Project Status
-
-Week 4 – Initial Analysis Complete
-
-Further exploratory analysis and visualisation will be conducted in subsequent stages of the project.
+### Next: Week 5 - Deep Dive AnalysisDeveloped an initial analysis approach using Python
