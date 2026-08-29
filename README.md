@@ -1,6 +1,4 @@
 # HealthConnect Hospital - Appointment No-Show Analysis
-**Week 4: Initial Analysis Document | Track B - Data Analytics**
-**Author: Desiree Kabini | Date: 30 August 2026**
 
 ### 📌 Project Overview
 HealthConnect Hospital is experiencing high patient no-show rates. This project analyzes 5,000 appointment records to identify patterns and improve attendance.
